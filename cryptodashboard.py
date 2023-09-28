@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1YMSur8omAyNLiCmklQf3rYpC5yDPB-Ux
 """
 
-import yfinance as yf
 import streamlit as st
+import yfinance as yf
 st.set_page_config(page_title='Crypto Dashbord',page_icon=":chart_with_upwards_trend:")
 st.title("Cryptocurrency Daily Prices")
 st.header("Main Dashboard")
